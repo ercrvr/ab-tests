@@ -1,0 +1,35 @@
+{
+  "name": "Navigation Layout Test",
+  "prompt": "Compare two navigation layouts: a horizontal top bar vs a vertical sidebar. Measure time on page and pages per session to determine which layout encourages more exploration.",
+  "difficulty": "Medium",
+  "context": "Top nav bar vs sidebar navigation layout comparison.",
+  "tags": [
+    "ui",
+    "navigation",
+    "layout",
+    "engagement"
+  ],
+  "date": "2026-03-15",
+  "variants": {
+    "variant-a": {
+      "description": "Horizontal top bar navigation \u2014 fixed 64px height",
+      "highlights": [
+        "Familiar horizontal layout",
+        "Minimal vertical space usage"
+      ],
+      "notes": [
+        "Fixed position, 64px height"
+      ]
+    },
+    "variant-b": {
+      "description": "Vertical sidebar navigation \u2014 fixed 240px width",
+      "highlights": [
+        "More room for nav items",
+        "Can show nested menu structure"
+      ],
+      "notes": [
+        "Fixed position, 240px width"
+      ]
+    }
+  }
+}

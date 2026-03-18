@@ -1,0 +1,39 @@
+{
+  "name": "Payment Form Layout",
+  "prompt": "Compare a single-page checkout form against a multi-step wizard checkout. Measure conversion rate, cart abandonment, and time to complete.",
+  "difficulty": "Complex",
+  "context": "Single-page vs multi-step checkout form comparison.",
+  "tags": [
+    "checkout",
+    "form",
+    "ux",
+    "conversion"
+  ],
+  "date": "2026-03-08",
+  "variants": {
+    "single-page": {
+      "description": "All checkout fields on one page with fieldset grouping",
+      "highlights": [
+        "Everything visible at once",
+        "Fewer clicks to complete"
+      ],
+      "issues": [
+        "Can feel overwhelming",
+        "Higher cart abandonment (22.3%)"
+      ],
+      "notes": [
+        "Sessions: 12,450 | Conversions: 1,870 | CVR: 15.02% | Avg time: 142s"
+      ]
+    },
+    "multi-step": {
+      "description": "Step-by-step wizard with progress indicator",
+      "highlights": [
+        "Less overwhelming per step",
+        "Lower cart abandonment (18.1%)"
+      ],
+      "notes": [
+        "Sessions: 12,380 | Conversions: 2,105 | CVR: 17.00% | Avg time: 187s"
+      ]
+    }
+  }
+}

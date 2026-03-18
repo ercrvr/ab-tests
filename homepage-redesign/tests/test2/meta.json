@@ -1,0 +1,34 @@
+{
+  "name": "CTA Button Color Test",
+  "prompt": "Test the effect of button color on click-through rate. Compare a green CTA button (control) against an orange CTA button (experiment), keeping all other properties identical.",
+  "difficulty": "Simple",
+  "context": "Testing green vs orange call-to-action button color.",
+  "tags": [
+    "ui",
+    "cta",
+    "color",
+    "conversion"
+  ],
+  "date": "2026-03-12",
+  "variants": {
+    "control": {
+      "description": "Green CTA button (#22c55e) \u2014 the current production design",
+      "highlights": [
+        "Standard green conveys 'go' / positive action"
+      ],
+      "notes": [
+        "Expected CTR: 3.2%"
+      ]
+    },
+    "experiment": {
+      "description": "Orange CTA button (#f97316) \u2014 hypothesis: warmer color increases urgency",
+      "highlights": [
+        "Orange draws more visual attention",
+        "Warmer color may increase urgency"
+      ],
+      "notes": [
+        "Expected CTR: 4.1%"
+      ]
+    }
+  }
+}

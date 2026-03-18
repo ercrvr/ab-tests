@@ -5,21 +5,27 @@ Sample A/B test projects for the [A/B Testing Dashboard](https://ercrvr.github.i
 ## Projects
 
 ### homepage-redesign
-- **hero-banner** (easy) — Bold CTA vs minimal design
-- **cta-button** (easy) — Green vs orange button color
-- **nav-layout** (medium) — Top bar vs sidebar navigation
+- **test1** (Simple) — Hero Banner: Bold CTA vs minimal design
+- **test2** (Simple) — CTA Button: Green vs orange button color
+- **test3** (Medium) — Nav Layout: Top bar vs sidebar navigation
 
 ### checkout-flow
-- **payment-form** (hard) — Single-page vs multi-step checkout
-- **pricing-display** (medium) — Monthly vs annual pricing format
+- **test1** (Complex) — Payment Form: Single-page vs multi-step checkout
+- **test2** (Medium) — Pricing Display: Monthly vs annual pricing format
 
 ## Structure
 
 ```
 project-name/
-  .abtest              ← project marker
-  test-name/
-    meta.json          ← test metadata
-    variant-a/         ← variant files
-    variant-b/
+  tests/
+    testN/
+      meta.json          <- test metadata (name, prompt, difficulty required)
+      variant-a/         <- variant files (user-defined names)
+        results.md       <- narrative writeup (required)
+        ...outputs
+      variant-b/
+        results.md
+        ...outputs
 ```
+
+See [AB_TEST_GUIDE.md](https://github.com/ercrvr/ab-testing/blob/main/AB_TEST_GUIDE.md) for the full structure specification.
