@@ -1,0 +1,8 @@
+{
+  "name": "Payment Form Layout",
+  "difficulty": "hard",
+  "description": "Single-page vs multi-step checkout",
+  "created": "2026-03-08",
+  "status": "running",
+  "metrics": ["conversion_rate", "cart_abandonment", "time_to_complete"]
+}

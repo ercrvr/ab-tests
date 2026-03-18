@@ -1,0 +1,8 @@
+{
+  "name": "Pricing Display Format",
+  "difficulty": "medium",
+  "description": "Monthly vs annual pricing display with savings badge",
+  "created": "2026-03-14",
+  "status": "completed",
+  "metrics": ["plan_selection_rate", "revenue_per_user"]
+}

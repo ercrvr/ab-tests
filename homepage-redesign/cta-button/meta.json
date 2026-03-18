@@ -1,0 +1,8 @@
+{
+  "name": "CTA Button Color Test",
+  "difficulty": "easy",
+  "description": "Testing green vs orange call-to-action button",
+  "created": "2026-03-12",
+  "status": "completed",
+  "metrics": ["click_through_rate"]
+}

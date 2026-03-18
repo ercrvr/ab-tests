@@ -1,0 +1,8 @@
+{
+  "name": "Navigation Layout Test",
+  "difficulty": "medium",
+  "description": "Top nav bar vs sidebar navigation",
+  "created": "2026-03-15",
+  "status": "draft",
+  "metrics": ["time_on_page", "pages_per_session"]
+}
