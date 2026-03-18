@@ -1,0 +1,34 @@
+{
+  "name": "Hero Banner Test",
+  "prompt": "Design two hero banner variants: one bold with a strong CTA gradient, and one minimal with a dark, understated design. Compare click-through and bounce rates.",
+  "difficulty": "Simple",
+  "context": "Testing two hero banner designs for conversion rate on the homepage.",
+  "tags": [
+    "ui",
+    "hero",
+    "conversion"
+  ],
+  "date": "2026-03-10",
+  "variants": {
+    "variant-a": {
+      "description": "Bold CTA with purple gradient background",
+      "highlights": [
+        "Eye-catching gradient",
+        "Large CTA button with high contrast"
+      ],
+      "notes": [
+        "Uses white button on purple gradient for strong contrast"
+      ]
+    },
+    "variant-b": {
+      "description": "Minimal design with dark background",
+      "highlights": [
+        "Clean and modern look",
+        "Subtle bordered CTA"
+      ],
+      "notes": [
+        "Uses transparent button with blue border for understated feel"
+      ]
+    }
+  }
+}

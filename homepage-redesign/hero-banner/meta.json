@@ -1,8 +1,0 @@
-{
-  "name": "Hero Banner Test",
-  "difficulty": "easy",
-  "description": "Testing two hero banner designs for conversion rate",
-  "created": "2026-03-10",
-  "status": "running",
-  "metrics": ["click_through_rate", "bounce_rate"]
-}

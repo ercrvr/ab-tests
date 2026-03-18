@@ -1,0 +1,34 @@
+{
+  "name": "Pricing Display Format",
+  "prompt": "Compare monthly vs annual pricing display formats. The annual version includes savings badges and per-year billing info. Measure plan selection rate and revenue per user.",
+  "difficulty": "Medium",
+  "context": "Monthly vs annual pricing display with savings badge comparison.",
+  "tags": [
+    "pricing",
+    "conversion",
+    "revenue"
+  ],
+  "date": "2026-03-14",
+  "variants": {
+    "monthly": {
+      "description": "Standard monthly pricing display \u2014 simple per-month price",
+      "highlights": [
+        "Clean and straightforward",
+        "Easy to understand pricing"
+      ],
+      "notes": [
+        "Shows Starter at $9/mo and Pro at $29/mo"
+      ]
+    },
+    "annual": {
+      "description": "Annual pricing with savings badges and yearly billing info",
+      "highlights": [
+        "Shows savings percentage",
+        "BEST VALUE badge on Pro plan"
+      ],
+      "notes": [
+        "Shows Starter at $7/mo (save 22%) and Pro at $22/mo (save 24%)"
+      ]
+    }
+  }
+}
