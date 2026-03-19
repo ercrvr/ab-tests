@@ -1,0 +1,19 @@
+{
+  "name": "Blog Post Generation",
+  "prompt": "Write a technical blog post (600–800 words) explaining how React Server Components work, targeting intermediate developers. Include code examples.",
+  "difficulty": "Medium",
+  "date": "2026-03-19",
+  "tags": ["markdown", "writing", "react"],
+  "variants": {
+    "gpt4o": {
+      "description": "GPT-4o output",
+      "highlights": ["Strong technical accuracy", "Good code examples"],
+      "issues": ["Slightly verbose intro"]
+    },
+    "claude": {
+      "description": "Claude 3.5 Sonnet output",
+      "highlights": ["Concise and well-structured", "Excellent analogies"],
+      "issues": ["Code examples slightly simplified"]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Weekly Analytics Dashboard",
+  "dateRange": { "from": "2026-03-13", "to": "2026-03-19" },
+  "charts": [
+    {
+      "id": "pageviews",
+      "type": "line",
+      "title": "Daily Pageviews",
+      "data": [
+        { "date": "2026-03-13", "value": 1000 },
+        { "date": "2026-03-14", "value": 1000 },
+        { "date": "2026-03-15", "value": 1000 },
+        { "date": "2026-03-16", "value": 1000 },
+        { "date": "2026-03-17", "value": 1000 },
+        { "date": "2026-03-18", "value": 1000 },
+        { "date": "2026-03-19", "value": 1000 }
+      ]
+    },
+    {
+      "id": "revenue",
+      "type": "bar",
+      "title": "Daily Revenue",
+      "data": [
+        { "date": "2026-03-13", "value": 640 },
+        { "date": "2026-03-14", "value": 640 },
+        { "date": "2026-03-15", "value": 640 },
+        { "date": "2026-03-16", "value": 640 },
+        { "date": "2026-03-17", "value": 640 },
+        { "date": "2026-03-18", "value": 640 },
+        { "date": "2026-03-19", "value": 640 }
+      ]
+    }
+  ],
+  "summary": {
+    "totalPageviews": 7000,
+    "totalRevenue": 4480.00,
+    "avgBounceRate": 0.42,
+    "totalConversions": 224
+  }
+}

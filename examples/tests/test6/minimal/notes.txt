@@ -1,0 +1,18 @@
+SETUP NOTES — Minimal Config
+============================
+
+Prerequisites:
+- Node.js 20+
+- PostgreSQL 15+ running locally
+- Redis 7+ running locally
+
+Quick start:
+1. Copy .env to your project root
+2. Run: createdb myapp_dev
+3. Run: npm install && npm run migrate
+4. Run: npm run dev
+
+The server will start on http://localhost:3000
+
+Note: This config is for development only.
+Do not use in production.

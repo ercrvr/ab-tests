@@ -1,0 +1,19 @@
+{
+  "name": "Notification Sound",
+  "prompt": "Generate a short notification sound in two formats (WAV and MP3). Compare a high-pitched alert tone vs a low calm tone.",
+  "difficulty": "Simple",
+  "date": "2026-03-19",
+  "tags": ["audio", "sound", "notification"],
+  "variants": {
+    "alert": {
+      "description": "High-pitched alert tone (440Hz A note)",
+      "highlights": ["Attention-grabbing", "Clearly audible"],
+      "issues": ["May be startling in quiet environments"]
+    },
+    "calm": {
+      "description": "Lower, gentler tone (880Hz octave up)",
+      "highlights": ["Less jarring", "Pleasant for frequent notifications"],
+      "issues": ["May be missed in noisy environments"]
+    }
+  }
+}

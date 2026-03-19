@@ -1,0 +1,19 @@
+{
+  "name": "Analytics Report Data",
+  "prompt": "Generate a weekly analytics report as structured data: a CSV of daily metrics, a JSON config for a charting dashboard, and an XML sitemap. Compare two approaches: one using synthetic sample data, one using realistic varied data.",
+  "difficulty": "Simple",
+  "date": "2026-03-19",
+  "tags": ["csv", "json", "xml", "data"],
+  "variants": {
+    "synthetic": {
+      "description": "Uniform synthetic data — easy to verify but unrealistic",
+      "highlights": ["Perfectly consistent format", "Easy to parse and validate"],
+      "issues": ["Unrealistic flat distribution", "No variance or anomalies"]
+    },
+    "realistic": {
+      "description": "Realistic data with natural variance and weekend dips",
+      "highlights": ["Natural traffic patterns", "Includes anomalies for testing"],
+      "issues": ["Slightly harder to validate at a glance"]
+    }
+  }
+}

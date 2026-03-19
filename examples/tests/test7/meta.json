@@ -1,0 +1,19 @@
+{
+  "name": "Quarterly Performance Report",
+  "prompt": "Generate a Q1 2026 performance report PDF. Compare a brief executive summary format vs a detailed analysis format.",
+  "difficulty": "Medium",
+  "date": "2026-03-19",
+  "tags": ["pdf", "report", "analytics"],
+  "variants": {
+    "executive": {
+      "description": "Brief executive summary — 1 page, key numbers only",
+      "highlights": ["Fast to read", "Decision-focused"],
+      "issues": ["Lacks supporting detail"]
+    },
+    "detailed": {
+      "description": "Detailed analysis with full data tables",
+      "highlights": ["Comprehensive data", "Full methodology"],
+      "issues": ["Takes longer to read", "May overwhelm stakeholders"]
+    }
+  }
+}

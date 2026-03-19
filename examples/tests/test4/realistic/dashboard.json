@@ -1,0 +1,41 @@
+{
+  "title": "Weekly Analytics Dashboard",
+  "dateRange": { "from": "2026-03-13", "to": "2026-03-19" },
+  "charts": [
+    {
+      "id": "pageviews",
+      "type": "line",
+      "title": "Daily Pageviews",
+      "annotations": [{ "date": "2026-03-14", "label": "Email campaign" }],
+      "data": [
+        { "date": "2026-03-13", "value": 4821, "day": "Thu" },
+        { "date": "2026-03-14", "value": 6203, "day": "Fri" },
+        { "date": "2026-03-15", "value": 5847, "day": "Sat" },
+        { "date": "2026-03-16", "value": 5102, "day": "Sun" },
+        { "date": "2026-03-17", "value": 4756, "day": "Mon" },
+        { "date": "2026-03-18", "value": 1923, "day": "Tue" },
+        { "date": "2026-03-19", "value": 1441, "day": "Wed" }
+      ]
+    },
+    {
+      "id": "revenue",
+      "type": "bar",
+      "title": "Daily Revenue ($)",
+      "data": [
+        { "date": "2026-03-13", "value": 4127.43 },
+        { "date": "2026-03-14", "value": 6182.16 },
+        { "date": "2026-03-15", "value": 5187.69 },
+        { "date": "2026-03-16", "value": 4318.22 },
+        { "date": "2026-03-17", "value": 3842.91 },
+        { "date": "2026-03-18", "value": 891.47 },
+        { "date": "2026-03-19", "value": 621.83 }
+      ]
+    }
+  ],
+  "summary": {
+    "totalPageviews": 30093,
+    "totalRevenue": 25171.71,
+    "avgBounceRate": 0.457,
+    "totalConversions": 1117
+  }
+}

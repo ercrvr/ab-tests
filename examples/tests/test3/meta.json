@@ -1,0 +1,19 @@
+{
+  "name": "REST API Client",
+  "prompt": "Generate a TypeScript REST API client for a todo-list API with full CRUD operations, proper error handling, and TypeScript types. Also include a Python equivalent and a GitHub Actions workflow YAML.",
+  "difficulty": "Medium",
+  "date": "2026-03-19",
+  "tags": ["code", "typescript", "python", "yaml", "api"],
+  "variants": {
+    "baseline": {
+      "description": "Basic implementation without advanced patterns",
+      "highlights": ["Clear and readable", "Covers all CRUD operations"],
+      "issues": ["No retry logic", "Basic error types only"]
+    },
+    "optimized": {
+      "description": "Production-ready implementation with advanced patterns",
+      "highlights": ["Retry with exponential backoff", "Rich error types", "Request interceptors"],
+      "issues": ["More complex to understand at a glance"]
+    }
+  }
+}

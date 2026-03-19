@@ -1,0 +1,19 @@
+{
+  "name": "App Configuration Files",
+  "prompt": "Generate a set of configuration files for a Node.js web app: an environment file, a server config, an application log excerpt, and a plain text README. Compare a minimal config vs a production-hardened config.",
+  "difficulty": "Simple",
+  "date": "2026-03-19",
+  "tags": ["plaintext", "config", "devops"],
+  "variants": {
+    "minimal": {
+      "description": "Minimal development configuration",
+      "highlights": ["Easy to understand", "Quick to get started"],
+      "issues": ["Not safe for production", "Missing security headers", "Debug logging enabled"]
+    },
+    "production": {
+      "description": "Production-hardened configuration with security settings",
+      "highlights": ["Secure defaults", "Structured logging", "Rate limiting configured"],
+      "issues": ["More complex to set up initially"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+2026-03-19T10:00:00.000Z DEBUG [server] Starting server on localhost:3000
+2026-03-19T10:00:00.012Z DEBUG [db] Connecting to postgres://localhost:5432/myapp_dev
+2026-03-19T10:00:00.234Z DEBUG [db] Connection established. Pool size: 5
+2026-03-19T10:00:00.235Z DEBUG [redis] Connecting to redis://localhost:6379
+2026-03-19T10:00:00.241Z DEBUG [redis] Connection established.
+2026-03-19T10:00:00.242Z INFO  [server] Server ready on http://localhost:3000
+2026-03-19T10:01:14.382Z DEBUG [router] GET /api/users - params: {} query: {}
+2026-03-19T10:01:14.391Z DEBUG [db] SELECT * FROM users WHERE deleted_at IS NULL LIMIT 50
+2026-03-19T10:01:14.412Z DEBUG [router] Response 200 - 31ms - 2847 bytes
+2026-03-19T10:02:33.019Z DEBUG [router] POST /api/auth/login - body: {"email":"user@example.com","password":"[REDACTED]"}
+2026-03-19T10:02:33.187Z INFO  [auth] Login successful for user@example.com
+2026-03-19T10:02:33.189Z DEBUG [router] Response 200 - 170ms - 412 bytes

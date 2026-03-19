@@ -1,0 +1,29 @@
+DEPLOYMENT CHECKLIST — Production Config
+=========================================
+
+Pre-deploy:
+[ ] Generate SESSION_SECRET: openssl rand -base64 64
+[ ] Generate JWT_SECRET: openssl rand -base64 64
+[ ] Set DATABASE_URL to production connection pooler
+[ ] Verify DATABASE_SSL=true
+[ ] Configure REDIS_URL with TLS endpoint
+[ ] Set CORS_ORIGINS to exact production domain(s)
+
+Infrastructure:
+[ ] PostgreSQL behind PgBouncer (connection pooling)
+[ ] Redis for session store and rate limiting
+[ ] Load balancer with health check on GET /health
+[ ] Log aggregator configured (Datadog, ELK, etc.)
+
+Security:
+[ ] TLS termination at load balancer
+[ ] Secrets in environment (not in code or config files)
+[ ] Rotate secrets every 90 days
+[ ] Enable database audit logging
+[ ] Set up alerts for 429 rate-limit spikes
+
+Monitoring:
+[ ] Uptime check on /health endpoint
+[ ] Alert on error rate > 1%
+[ ] Alert on p95 response time > 500ms
+[ ] Alert on rate limit spikes (potential attack)

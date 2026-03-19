@@ -1,0 +1,19 @@
+{
+  "name": "Landing Page HTML",
+  "prompt": "Generate a product landing page in HTML. Compare a minimal single-file approach vs a rich styled page with embedded CSS and JS.",
+  "difficulty": "Medium",
+  "date": "2026-03-19",
+  "tags": ["html", "frontend", "landing-page"],
+  "variants": {
+    "minimal": {
+      "description": "Semantic HTML only, no styling",
+      "highlights": ["Clean semantic structure", "Fully accessible", "Zero dependencies"],
+      "issues": ["No visual styling", "Poor user experience without CSS"]
+    },
+    "rich": {
+      "description": "Fully styled with embedded CSS and interactive JS",
+      "highlights": ["Professional appearance", "Responsive layout", "Smooth scroll navigation"],
+      "issues": ["Larger file size", "Inline styles harder to maintain"]
+    }
+  }
+}

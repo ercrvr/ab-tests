@@ -1,0 +1,31 @@
+{
+  "name": "Icon Generation",
+  "prompt": "Create a settings gear icon suitable for use as an app icon. It should be clean, minimal, work well at small sizes, and support both light and dark themes.",
+  "difficulty": "Simple",
+  "date": "2026-03-19",
+  "tags": ["icon", "image", "svg", "design"],
+  "variants": {
+    "with-skill": {
+      "description": "Agent equipped with icon design skill",
+      "highlights": [
+        "Single clean SVG with proper viewBox",
+        "Renders crisply at all sizes",
+        "Uses currentColor for theme adaptability",
+        "Includes accessibility attributes"
+      ],
+      "issues": []
+    },
+    "without-skill": {
+      "description": "Agent without icon design skill (control)",
+      "highlights": [
+        "Produced a recognizable shape",
+        "Generated multiple format variations"
+      ],
+      "issues": [
+        "Overly complex paths that blur at small sizes",
+        "No accessibility attributes",
+        "Inconsistent sizing across outputs"
+      ]
+    }
+  }
+}
