@@ -1,6 +1,8 @@
 # A/B Test Data
 
-Sample A/B test projects for the [A/B Testing Dashboard](https://ercrvr.github.io/ab-testing/).
+This repository stores A/B test data for the [A/B Testing Dashboard](https://ercrvr.github.io/ab-testing/).
+
+> **📘 Before adding tests, read [AB_TEST_GUIDE.md](./AB_TEST_GUIDE.md)** — it defines exactly how to structure your test data so the dashboard can automatically discover and render it.
 
 ## Projects
 
@@ -13,19 +15,19 @@ Sample A/B test projects for the [A/B Testing Dashboard](https://ercrvr.github.i
 - **test1** (Complex) — Payment Form: Single-page vs multi-step checkout
 - **test2** (Medium) — Pricing Display: Monthly vs annual pricing format
 
-## Structure
+## Quick Reference
 
 ```
 project-name/
   tests/
     testN/
-      meta.json          <- test metadata (name, prompt, difficulty required)
-      variant-a/         <- variant files (user-defined names)
-        results.md       <- narrative writeup (required)
-        ...outputs
+      meta.json          ← test metadata (name, prompt, difficulty required)
+      variant-a/         ← variant directory (user-defined name)
+        results.md       ← narrative writeup (required)
+        ...outputs       ← any output files
       variant-b/
         results.md
         ...outputs
 ```
 
-See [AB_TEST_GUIDE.md](https://github.com/ercrvr/ab-testing/blob/main/AB_TEST_GUIDE.md) for the full structure specification.
+For the full specification — including `meta.json` schema, `results.md` template, naming conventions, and complete examples — see **[AB_TEST_GUIDE.md](./AB_TEST_GUIDE.md)**.
